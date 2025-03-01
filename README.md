@@ -1,5 +1,16 @@
 ![image](https://github.com/user-attachments/assets/b94ae0db-17b2-4330-928e-a97ead6226cf)
 
+![image](https://github.com/user-attachments/assets/f695c3f1-f36f-42e8-8358-7edf5b5ccdc6)
+
+
+![image](https://github.com/user-attachments/assets/0e25862a-6ec1-47f1-b2e4-5c9a901fbbba)
+
+![image](https://github.com/user-attachments/assets/f3c499a9-5dfb-41e9-88d4-62ea43aaa3a7)
+
+![image](https://github.com/user-attachments/assets/030674a2-22ca-4187-99e7-3e0c5138437e)
+
+![image](https://github.com/user-attachments/assets/75ad5c72-079c-460e-88d4-ff6ead15c9f5)
+
 
 
 # Nuxt Minimal Starter
