@@ -1,0 +1,37 @@
+# queries de los posts, todos los posts, por id, y por nombre de usuario
+query getPosts {
+  posts(order: { updatedAt: DESC }, where: { statusId: { eq: 1 } }) {
+    id
+    title
+    user {
+      userName
+    }
+    description
+    createdAt
+    userId
+  }
+}
+
+query getPostById($id: Int!) {
+  postById(id: $id) {
+    title
+    description
+    user {
+      userName
+    }
+    updatedAt
+  }
+}
+
+query getPostsByUsername($id: Int!) {
+  posts(where: { user: { id: { eq: $id } } }) {
+    id
+    title
+    user {
+      userName
+    }
+    description
+    createdAt
+    userId
+  }
+}

@@ -1,0 +1,14 @@
+# queries de los usuarios, todos los usuarios, y por id
+query getUsers {
+  users {
+    id
+    userName
+  }
+}
+
+query getUserById ($id: Int!){
+  userById (id: $id) {
+    id
+    userName
+  }
+}

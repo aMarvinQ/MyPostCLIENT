@@ -1,0 +1,15 @@
+# mutación para crear un nuevo usuario
+mutation createUser ($birthdate: DateTime!, $email: String!, $password: String!, $statusId: Int!, $userName: String!){
+  createUser (
+    birthdate: $birthdate, 
+    email: $email, 
+    password: $password, 
+    statusId: $statusId, 
+    userName: $userName)
+    {
+      data {
+        userName
+      }
+      succes
+  }
+}

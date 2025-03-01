@@ -1,0 +1,22 @@
+# mutación para crear un nuevo post, recibiendo las variables y retornando los datos, el estado y el mensaje
+mutation createPost($title: String!, $description: String!, $userId: Int!, $statusId: Int!) {
+  createPost(description: $description, title: $title, userId: $userId, statusId: $statusId) {
+    data {
+      statusId
+      title
+    }
+    succes
+    message
+  }
+}
+
+mutation updatePost ($id: Int!, $title: String!, $description: String!, $statudId: Int!){
+  updatePost (id: $id, title: $title, description: $description, statusId: $statudId, ) {
+    data {
+      title
+      description
+    }
+    succes
+    message
+  }
+}
